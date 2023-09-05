@@ -3,6 +3,7 @@
   This is a test setup project using the Astro framework technology for the front-end and Strapi
 
   ## Installation
-  To install the project and continue working on it, first clone the repository locally to your computer.
+  To install the project and continue working on it, first, clone the repository locally to your computer. 
+  After you've cloned the project to your computer, open it in your IDE.
   
   
