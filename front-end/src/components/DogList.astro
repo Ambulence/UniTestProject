@@ -1,0 +1,34 @@
+---
+const response = await fetch('http://127.0.0.1:1337/api/dogs?populate=*');
+const { data } = await response.json();
+---
+
+<table class="w-full border-collapse border-2 border-black">
+  <thead class="border-2 border-black">
+    <tr>
+      <th class="text-lg border-2 border-black w-20 text-center">#</th>
+      <th class="text-lg border-2 border-black w-40 text-center">Name</th>
+      <th class="text-lg border-2 border-black text-center">Breed</th>
+      <th class="text-lg border-2 border-black text-center">Photo</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    {
+      data.map((dog: any) => (
+        <tr>
+          <td class="font-semibold text-teal-800 border-2 w-20 h-70 border-black text-center">{dog.id}</td>
+          <td class="font-semibold text-teal-800 border-2 w-40 h-70 border-black text-center">{dog.attributes.name}</td>
+          <td class="font-semibold text-teal-800 border-2 h-70 border-black text-center">{dog.attributes.breed}</td>
+          <td class="border-2 border-black h-70 text-center">
+            <img
+              class="my-0 mx-auto h-60"
+              src={`http://127.0.0.1:1337${dog.attributes.photo.data.attributes.url}`}
+              alt={dog.attributes.photo.data.attributes.name}
+            />
+          </td>
+        </tr>
+      ))
+    }
+  </tbody>
+</table>
