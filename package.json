@@ -6,6 +6,7 @@
     "start": "npm-run-all --parallel frontend backend",
     "frontend": "cd front-end && npm start",
     "backend": "cd uni-back-end && npm start",
+    "install": "npm run i-front && npm run i-back",
     "i-front": "cd front-end && npm install",
     "i-back": "cd uni-back-end && npm install"
   },
