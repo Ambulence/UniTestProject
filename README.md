@@ -10,9 +10,12 @@
   ____
   ```python
 
-  # Input in CLI to install dependencies
+  # Input in CLI to install dependencies of front-end and back-end
   npm run install
-  
+
+  # Input in CLI to install dependencies of the project
+  npm install
+
   # Input in CLI to run a project 
   npm start
 
