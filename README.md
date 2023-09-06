@@ -44,11 +44,12 @@
 
       **Use this hint if you need** [Step 3. Set Roles & Permissions](https://docs.strapi.io/dev-docs/quick-start#_1-install-strapi-and-create-a-new-project)
 
-After these manipulations, restart your project again with the command 
+### After these manipulations, restart your project again with the command 
 
 ```bash
 npm start
 ```
+After starting the servers, you will be able to open your front end at the address http://localhost:4321/
 
   
   
