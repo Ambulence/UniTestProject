@@ -51,5 +51,30 @@ npm start
 ```
 After starting the servers, you will be able to open your front end at the address http://localhost:4321/
 
+
+# If you want to create your collection!!!
+  
+  1. **Run servers**
+     
+      ```bash
+      npm run develop
+      ```
+      
+  2. **Follow the addres** http://localhost:1337/admin:
+
+     Go to Plugins **Content-type Builder** in the main navigation.
+
+     Click on **Create new collection type**
+
+     Type **your-category-name** for the Display name, and click Continue.
+
+     Click the Text field.
+
+     Type Name in the Name field.
+
+     Switch to the Advanced Settings tab, and check the Required field and the Unique field settings (if you need them).
+
+     Finally, click Save and wait for Strapi to restart.
+     
   
   
