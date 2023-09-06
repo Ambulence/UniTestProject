@@ -13,7 +13,7 @@
   # Input in CLI to install dependencies
   npm run install
   
-  # Input to CLI to run a project 
+  # Input in CLI to run a project 
   npm start
 
   ```
