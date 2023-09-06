@@ -7,13 +7,16 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi"
+    "strapi": "strapi",
+    "format": "prettier --write . --ignore-path .gitignore"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "prettier": "3.0.3"
+  },
   "dependencies": {
-    "@strapi/strapi": "4.13.1",
-    "@strapi/plugin-users-permissions": "4.13.1",
     "@strapi/plugin-i18n": "4.13.1",
+    "@strapi/plugin-users-permissions": "4.13.1",
+    "@strapi/strapi": "4.13.1",
     "better-sqlite3": "8.5.0"
   },
   "author": {
