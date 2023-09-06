@@ -1,6 +1,6 @@
 # Test project set up
   ## Description:
-  This is a test setup project using the Astro framework technology for the front-end and Strapi
+  This is a test setup project using the Astro framework technology for the front end and Strapi for the back end and DB.
 
   ## Installation
   1. To install the project and continue working on it, first, clone the repository locally to your computer. 
