@@ -42,7 +42,13 @@
 
       Finally, click **Save**.
 
-  **Use this hint if you need** [Step 3. Set Roles & Permissions](https://docs.strapi.io/dev-docs/quick-start#_1-install-strapi-and-create-a-new-project)
+      **Use this hint if you need** [Step 3. Set Roles & Permissions](https://docs.strapi.io/dev-docs/quick-start#_1-install-strapi-and-create-a-new-project)
+
+After these manipulations, restart your project again with the command 
+
+```bash
+npm start
+```
 
   
   
