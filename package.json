@@ -5,6 +5,7 @@
   "scripts": {
     "start": "npm-run-all --parallel frontend backend",
     "develop": "npm-run-all --parallel frontend backend-dev",
+    "ts-build": "cd uni-back-end && npm run build",
     "frontend": "cd front-end && npm start",
     "backend": "cd uni-back-end && npm start",
     "backend-dev": "cd uni-back-end && npm run develop",
