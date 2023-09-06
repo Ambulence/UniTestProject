@@ -43,7 +43,7 @@
       Finally, click **Save**.
 
   ____
-  Use this hint if you need [Step 3. Set Roles & Permissions] (https://docs.strapi.io/dev-docs/quick-start#_1-install-strapi-and-create-a-new-project)
+  Use this hint if you need [Step 3. Set Roles & Permissions](https://docs.strapi.io/dev-docs/quick-start#_1-install-strapi-and-create-a-new-project)
 
   
   
