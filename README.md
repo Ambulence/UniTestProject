@@ -28,13 +28,22 @@
   
   5. **Click Save and Publish.** Create several entries with different data.
 
-  6. Set Role and Permission: Click on the General Settings icon Settings at the bottom of the main navigation
+  6. **Set Role and Permission:** Click on the General Settings icon Settings at the bottom of the main navigation
 
       Under Users & Permissions Plugin, choose Roles.
     
       Click the Public role.
-  
-  
+     
+      Scroll down under Permissions.
+
+      In the Permissions tab, find Restaurant and click on it.
+     
+      Click the checkboxes next to find and findOne.
+
+      Finally, click **Save**.
+
+  ____
+  Use this hint if you need [Step 3. Set Roles & Permissions] (https://docs.strapi.io/dev-docs/quick-start#_1-install-strapi-and-create-a-new-project)
 
   
   
