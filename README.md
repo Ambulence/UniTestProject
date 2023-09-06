@@ -20,5 +20,5 @@
   npm start
 
   ```
-  
+  After the servers are started, you need to go to the address http://localhost:1337/admin
   
