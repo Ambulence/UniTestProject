@@ -9,11 +9,13 @@
   **Warning!!!** The project was developed using VSCode, so it is preferable to use it. Otherwise, you will need to eliminate the errors that you will encounter at the project installation stage yourself. Use the Astro [Astro](https://astro.build/) and Strapi [Strapi](https://strapi.io/) documentation to solve problems.
   ____
   ```python
+
   # Input in CLI to install dependencies
   npm run install
   
   # Input to CLI to run a project 
   npm start
+
   ```
   
   
