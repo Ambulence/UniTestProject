@@ -24,5 +24,7 @@
 
   Then go to **Content Manager->Collection Types->Dog** and **Click** Create new entry 
 
+  Fill required fields: name, breed, photo. **Click** Save and Publish. Create several entries with different data.
+
   
   
