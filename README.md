@@ -3,7 +3,7 @@
   This is a test setup project using the Astro framework technology for the front-end and Strapi
 
   ## Installation
-  To install the project and continue working on it, first, clone the repository locally to your computer. 
+  1. To install the project and continue working on it, first, clone the repository locally to your computer. 
   After you've cloned the project to your computer, open it in your IDE.
   ____
   **Warning!!!** The project was developed using VSCode, so it is preferable to use it. Otherwise, you will need to eliminate the errors that you will encounter at the project installation stage yourself. Use the Astro [Astro](https://astro.build/) and Strapi [Strapi](https://strapi.io/) documentation to solve problems.
@@ -20,13 +20,19 @@
   npm start
 
   ```
-  After the servers are started, you need to go to the address http://localhost:1337/admin/auth/register-admin and register in Strapi.
+  2. After the servers are started, you need to go to the address http://localhost:1337/admin/auth/register-admin and register in Strapi.
 
-  Then go to **Content Manager->Collection Types->Dog** and **Click** Create new entry 
+  3. Then go to **Content Manager->Collection Types->Dog** and **Click** Create new entry 
 
-  **Fill required fields: name, breed, photo.**
+  4. **Fill required fields: name, breed, photo.**
   
-  **Click Save and Publish.** Create several entries with different data.
+  5. **Click Save and Publish.** Create several entries with different data.
+
+  6. Set Role and Permission: Click on the General Settings icon Settings at the bottom of the main navigation
+
+      Under Users & Permissions Plugin, choose Roles.
+    
+      Click the Public role.
   
   
 
