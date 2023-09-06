@@ -16,6 +16,9 @@
   # Input in CLI to install dependencies of the project
   npm install
 
+  # Input in CLI to build ts for back-end
+  npm run ts-build
+
   # Input in CLI to run a project 
   npm start
 
