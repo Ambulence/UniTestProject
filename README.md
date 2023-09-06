@@ -52,7 +52,7 @@ npm start
 After starting the servers, you will be able to open your front end at the address http://localhost:4321/
 
 Here you can see how your UI will look after all operations 
-![Project](https://share.getcloudapp.com/p9uYgbZj)
+![Alt text](https://share.getcloudapp.com/p9uYgbZj)
 
 
 # If you want to create your collection!!!
